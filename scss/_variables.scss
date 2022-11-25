@@ -1,0 +1,15 @@
+$bgcf:rgb(34, 30, 30); 
+$bgimage:  linear-gradient(black, white, black); 
+$bgcsections: black;
+$a-color:black;
+$a-hovercolor:goldenrod;
+
+@mixin flex-standars {
+    display: flex; 
+    
+    justify-content: center; 
+    
+    justify-content: space-around; 
+
+    align-items: center;
+}

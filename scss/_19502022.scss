@@ -1,0 +1,236 @@
+ /* -----------------------1950-2022--------------------------- */ 
+    
+     
+     
+    
+    #grids-1950-2022 { 
+    
+        display: grid; 
+    
+        grid-template-areas:   
+    
+        "header header header" 
+    
+        "main main main" 
+    
+        "footer footer footer"; 
+    
+        grid-template-columns: 1fr 1fr 1fr; 
+    
+         
+    
+    } 
+    
+     
+     
+    
+    /* HEADER */ 
+    
+     
+     
+    
+    #header-1950-2022 { 
+    
+        grid-area: header; 
+    
+        display: flex; 
+    
+        flex-direction: column; 
+    
+        text-align: center; 
+    
+    } 
+    
+     
+     
+    
+    .ul-1950-2022 { 
+    
+        @include flex-standars;
+    
+        @extend .estilosEnComun;
+    
+        
+    
+         a {
+        @extend .estilosEnComun-a;
+         }
+    
+         a:hover {
+            color: $a-hovercolor;
+    
+            border-bottom: 2px solid $a-hovercolor;
+        
+            padding-bottom: 0.5rem;
+         }
+
+    } 
+    
+    @media screen and (max-width: 800px){ 
+    
+        .ul-1950-2022{ 
+    
+            flex-direction:column; 
+    
+            gap: 0.5rem; 
+    
+        } 
+    
+    } 
+    
+     
+     
+    
+    
+     
+     
+    
+   
+     
+     
+    
+    .logo-1950-2022 { 
+    
+        display: flex; 
+    
+        align-items: center; 
+    
+        justify-items: center; 
+    
+        justify-content: center; 
+    
+        img {
+            margin: 2rem 2rem; 
+    
+        width: 20rem; 
+        }
+
+
+    } 
+    
+    @media screen and (max-width: 800px){ 
+    
+        .logo-1950-2022{ 
+    
+            flex-direction:column; 
+    
+            
+        } 
+    
+    } 
+    
+     
+     
+    
+    .p-1950-2022 { 
+    
+        margin-bottom: 5.5rem; 
+    
+        text-align: center; 
+    
+     
+     
+    
+    } 
+    
+     
+  
+
+    
+    /* SECTION */ 
+    
+     
+     
+    
+    #main-1950-2022 { 
+    
+        
+    
+        grid-area: main; 
+    
+        display: flex;  
+    
+        background-color: $bgcsections;
+    
+        text-align: center; 
+    
+        color: white; 
+    
+        justify-content: center; 
+    
+          
+    
+    } 
+    
+    tr { 
+    
+        font-size: 1.5rem; 
+    
+    } 
+    
+    @media screen and (max-width: 800px){ 
+    
+        tr{ 
+    
+           font-size: 0.8rem; 
+    
+        } 
+    
+    } 
+    
+     
+     
+    
+    table { 
+    
+        font-family:  'Ubuntu', sans-serif; 
+    
+    } 
+    
+    .nav-1950-2022 a { 
+    
+        display: block; 
+    
+        text-align: center; 
+    
+        font-size: 1.5rem; 
+    
+        color:goldenrod; 
+    
+        transition: 1s; 
+    
+        margin-top: 1rem; 
+    
+        margin-bottom: 1rem; 
+    
+    } 
+    
+    .nav-1950-2022 a:hover { 
+    
+         
+    
+        color:rgb(192, 3, 3); 
+    
+         
+    
+    } 
+    
+     
+     
+    
+    /* FOOTER */ 
+    
+     
+     
+    
+    #footer-1950-2022 { 
+    
+        grid-area: footer; 
+    
+        font-size: 1rem; 
+    
+        background-color: $bgcf;
+    
+       
+    
+    } 

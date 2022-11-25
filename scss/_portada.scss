@@ -1,0 +1,307 @@
+  /* -------------------PORTADA----------------- */ 
+     
+  body {
+    background-color: $bgcsections;
+
+} 
+   
+img { 
+  
+    margin: 0 auto; 
+    
+} 
+
+.logo-portada { 
+
+    display: flex; 
+
+    justify-content:center; 
+
+    margin-top: 5rem; 
+
+} 
+
+.width-logo { 
+
+    width: 20rem; 
+
+} 
+
+.padre-semaforo { 
+
+    border: solid 1rem; 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+    gap:2rem; 
+
+} 
+
+.semaforo1 { 
+
+    width:2rem; 
+
+    height:2rem; 
+
+    background-color:rgb(21, 20, 20); 
+
+    border-radius: 6rem; 
+
+    animation-name: mianimacion; 
+
+    animation-duration:  5s ; 
+
+    animation-delay: 1s; 
+
+} 
+
+.semaforo2 { 
+
+    width:2rem; 
+
+    height:2rem; 
+
+    background-color:rgb(21, 20, 20); 
+
+    border-radius: 6rem; 
+
+    animation-name: mianimacion; 
+
+    animation-duration:  4s ; 
+
+    animation-delay: 2s;      
+
+} 
+
+.semaforo3 { 
+
+    width:2rem; 
+
+    height:2rem; 
+
+    background-color:rgb(21, 20, 20); 
+
+    border-radius: 6rem; 
+
+    animation-name: mianimacion; 
+
+    animation-duration:  3s ; 
+
+    animation-delay: 3s; 
+
+} 
+
+.semaforo4 { 
+
+    width:2rem; 
+
+    height:2rem; 
+
+    background-color:rgb(21, 20, 20); 
+
+    border-radius: 6rem; 
+
+    animation-name: mianimacion; 
+
+    animation-duration:  2s ; 
+
+    animation-delay: 4s; 
+
+} 
+
+.semaforo5 { 
+
+    width:2rem; 
+
+    height:2rem; 
+
+    background-color:rgb(21, 20, 20); 
+
+    border-radius: 6rem; 
+
+    animation-name: mianimacion; 
+
+    animation-duration:  1s ; 
+
+    animation-delay: 5s; 
+
+} 
+
+@keyframes mianimacion { 
+
+    0% {background-color: rgb(30, 27, 27); 
+
+    } 
+
+    50%{background-color: red; 
+
+    }  
+
+    100%{background-color: red;      
+
+    } 
+
+} 
+
+.logo-rolex { 
+
+    width: 4rem; 
+
+} 
+
+.rolex { 
+
+    width: 5rem; 
+
+} 
+
+.contorno-semaforo { 
+
+  border: solid 1rem; 
+
+  border-color: rgb(30, 27, 27); 
+
+  width: 40rem; 
+
+  border-radius: 2rem; 
+
+  margin: 0 auto; 
+
+  margin-top: 2rem; 
+
+} 
+
+@media screen and (max-width: 680px){ 
+
+    .contorno-semaforo{ 
+
+       width: 20rem;  
+
+    } 
+
+    .semaforo1 { 
+
+        width:1rem; 
+
+        height:1rem;} 
+
+    .semaforo2 { 
+
+        width:1rem; 
+
+        height:1rem;} 
+
+    .semaforo3 { 
+
+        width:1rem; 
+
+        height:1rem;} 
+
+    .semaforo4 { 
+
+        width:1rem; 
+
+        height:1rem;} 
+
+    .semaforo5 { 
+
+        width:1rem; 
+
+        height:1rem;  }   
+
+    .padre-semaforo { 
+
+        gap: 0.5em; 
+
+         border: solid 0.3rem; 
+
+        } 
+
+    .logo-rolex { 
+
+        width: 2rem; 
+
+    } 
+
+    .rolex { 
+
+        width: 2.5re; 
+
+    } 
+
+} 
+
+.start { 
+
+    font-size: 4rem; 
+
+    font-weight: bolder; 
+
+    color:  rgb(0, 0, 0); 
+
+    text-align: center; 
+
+    font-family: 'Ubuntu', sans-serif; 
+
+    animation-name: start; 
+
+    animation-duration:  50s ; 
+
+    animation-delay: 5.5s; 
+
+} 
+
+@keyframes start { 
+
+    0% {color: rgb(0, 0, 0); 
+
+    } 
+
+    5%{color: rgb(0, 117, 16);     
+
+    } 
+
+    100%{color: rgb(0, 117, 16); 
+
+    } 
+
+} 
+
+.p-portada { 
+
+    font-family:  'Ubuntu', sans-serif; 
+
+    color: rgb(0, 0, 0); 
+
+    text-align: center; 
+
+    animation-name: clic; 
+
+    animation-duration:  50s ; 
+
+    animation-delay: 7s; 
+
+} 
+
+@keyframes clic { 
+
+    0% {color: rgb(0, 0, 0); 
+
+    } 
+
+    5%{color: rgb(255, 255, 255);     
+
+    } 
+
+    100%{color: rgb(255, 255, 255); 
+
+    } 
+
+} 
+
+ 
+ 
