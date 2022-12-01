@@ -93,7 +93,6 @@ ul, ol {
   transition: 1s;
 }
 
-/* -------------------PORTADA----------------- */
 body {
   background-color: black;
 }
@@ -275,7 +274,6 @@ img {
     color: rgb(255, 255, 255);
   }
 }
-/*-------------------INICIO----------------------*/
 #grids-menuPrincipal {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -335,7 +333,7 @@ img {
   grid-area: footer;
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
-  margin-top: 2.5rem;
+  margin-top: 2.7rem;
 }
 
 .footer-nav {
@@ -348,7 +346,6 @@ img {
   width: 1rem;
 }
 
-/*-------------------GRANDES CAMPEONES-----------------*/
 #grids-grandesCampeones {
   display: grid;
   grid-template-areas: "header header header " "section section section" "main main main " "footer footer footer";
@@ -386,7 +383,6 @@ img {
   align-items: center;
   justify-items: center;
   justify-content: center;
-  margin-bottom: 0;
 }
 .logo-grandesCampeones img {
   margin: 2rem 2rem;
@@ -475,8 +471,10 @@ img {
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
 }
+#footer-grandesCampeones p {
+  margin-bottom: 0;
+}
 
-/* -----------------------CIRCUITOS--------------------------- */
 #grids-circuitos {
   display: grid;
   grid-template-areas: "header header header" "section section section" "main main main" "footer footer footer";
@@ -515,7 +513,6 @@ img {
   align-items: center;
   justify-items: center;
   justify-content: center;
-  margin-bottom: 0;
 }
 
 .p-circuitos {
@@ -594,8 +591,10 @@ img {
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
 }
+#footer-circuitos p {
+  margin-bottom: 0;
+}
 
-/* -----------------------1950-2022--------------------------- */
 #grids-1950-2022 {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -692,8 +691,10 @@ table {
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
 }
+#footer-1950-2022 p {
+  margin-bottom: 0;
+}
 
-/* --------------------------RECORDS--------------------------- */
 #grids-records {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -781,9 +782,10 @@ table {
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
 }
+#footer-records p {
+  margin-bottom: 0;
+}
 
-/* RECORDS-END */
-/* ----------------------GALERIA---------------------- */
 #grids-records {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -851,6 +853,12 @@ table {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 500px) {
+  #main-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+}
 .fotos-galeria {
   border-radius: 1rem;
 }
@@ -861,8 +869,10 @@ table {
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
 }
+#footer-galeria p {
+  margin-bottom: 0;
+}
 
-/* ----------------------CONTACTO---------------------- */
 #grids-contacto {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -944,8 +954,10 @@ input {
   font-size: 1rem;
   background-color: rgb(34, 30, 30);
 }
+#footer-contacto p {
+  margin-bottom: 0;
+}
 
-/* -------------------CSS FLECHA SCROLL DOWN----------------- */
 .flechaAbajo {
   width: 0px;
   height: 0px;

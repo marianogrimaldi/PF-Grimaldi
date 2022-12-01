@@ -13,3 +13,27 @@ $a-hovercolor:goldenrod;
 
     align-items: center;
 }
+
+@mixin flex-stamdars-header {
+
+    grid-area: header; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    text-align: center; 
+    
+}
+
+@mixin flex-standars-logo {
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-items: center; 
+
+    justify-content: center; 
+    
+}

@@ -2,149 +2,163 @@
 
     padding:0;}   
          
+img 
+    { 
     
-    img { 
-    
-        max-width: 100%; 
-    
-        width: 500px;     
+    max-width: 100%; 
+
+    width: 500px;     
     
     } 
   
-     
-    
-    .imagen-mercedes {  
-    
-        background-color: rgb(0, 0, 0);  
-    
-        background-image: url(https://wallpapercave.com/wp/wp11031362.jpg);  
-    
-        background-repeat: no-repeat;  
-    
-        background-attachment: fixed;  
-    
-        background-size: cover;  
-    
+.imagen-mercedes 
+    {  
+
+    background-color: rgb(0, 0, 0);  
+
+    background-image: url(https://wallpapercave.com/wp/wp11031362.jpg);  
+
+    background-repeat: no-repeat;  
+
+    background-attachment: fixed;  
+
+    background-size: cover;  
+
     }   
     
-    hr { 
-    
-        margin-left: 1rem; 
-    
-        margin-right: 1rem; 
-    
-        margin-top: 1rem; 
-    
+hr 
+    { 
+
+    margin-left: 1rem; 
+
+    margin-right: 1rem; 
+
+    margin-top: 1rem; 
+
     }  
     
-    h1, h2, h3, h4, h5, p, a { 
-    
-        font-family: 'Ubuntu', sans-serif; 
-    
-        color: white;
-    
-    } 
-    
-    p { 
-    
-        margin-left: 1rem; 
-    
-        margin-right: 1rem; 
-    
-        text-align: justify; 
-    
-    } 
-    
-    h1 { 
-    
-        font-size: 4rem; 
-    
-        color: rgb(255, 0, 0);   
-    
-    } 
-    
-    h2 { 
-    
-        font-size: 3rem; 
-    
-        text-align: center ; 
-    
-        margin-top: 2rem; 
-    
-        margin-bottom: 1rem; 
-    
-        color:goldenrod; 
-    
-    
-    } 
-    
-    h3 { 
-    
-        text-align: center; 
-    
-        font-size: 1.5rem; 
-    
-        color: goldenrod; 
-    
-        margin-bottom: 2rem; 
+h1, h2, h3, h4, h5, p, a 
+    { 
 
-          
-  
-    
+    font-family: 'Ubuntu', sans-serif; 
+
+    color: white;
+
     } 
     
-    h4 { 
-    
-        font-size: 2rem; 
-    
-        margin-top: 2rem; 
-    
-        margin-bottom: 1rem; 
-    
-        background-image: linear-gradient(rgb(143, 0, 0), black ); 
-    
+p 
+    { 
+
+    margin-left: 1rem; 
+
+    margin-right: 1rem; 
+
+    text-align: justify; 
+
     } 
     
-    a { 
-    
-        text-decoration: none;   
-    
+h1 
+    { 
+
+    font-size: 4rem; 
+
+    color: rgb(255, 0, 0);   
+
     } 
     
-    ul, ol { 
-    
-        list-style-type: none; 
-    
+h2 
+    { 
+
+    font-size: 3rem; 
+
+    text-align: center ; 
+
+    margin-top: 2rem; 
+
+    margin-bottom: 1rem; 
+
+    color:goldenrod; 
+
     } 
     
-    #solapa { 
+h3 
+    { 
+
+    text-align: center; 
+
+    font-size: 1.5rem; 
+
+    color: goldenrod; 
+
+    margin-bottom: 2rem; 
+
+    } 
     
-        color: rgb(255, 0, 0); 
+h4 
+    { 
+
+    font-size: 2rem; 
+
+    margin-top: 2rem; 
+
+    margin-bottom: 1rem; 
+
+    background-image: linear-gradient(rgb(143, 0, 0), black ); 
+
+    } 
     
-        font-size: 1.1rem; 
+a 
+    { 
+
+    text-decoration: none;   
+
+    } 
     
+ul, ol 
+    { 
+
+    list-style-type: none; 
+
+    } 
+    
+#solapa 
+
+    { 
+
+    color: rgb(255, 0, 0); 
+
+    font-size: 1.1rem; 
+
     } 
 
-    #punto {
-        width: 1rem;
-        height: 1rem;
-        color: rgb(255, 255, 255);
+#punto 
+    {
+
+    width: 1rem;
+
+    height: 1rem;
+
+    color: rgb(255, 255, 255);
+
     } 
      
-   
-    .estilosEnComun {
-        font-size: 1rem; 
-    
-        background-image: $bgimage;
-    
-        margin-top: 2rem; 
-    
-        margin-bottom: 2rem; 
-    
-        padding: 1rem; 
+.estilosEnComun 
+    {
+
+    font-size: 1rem; 
+
+    background-image: $bgimage;
+
+    margin-top: 2rem; 
+
+    margin-bottom: 2rem; 
+
+    padding: 1rem; 
+
     }
 
-    .estilosEnComun-a {
+.estilosEnComun-a 
+    {
         color: $a-color;
     
         font-weight:bolder; 

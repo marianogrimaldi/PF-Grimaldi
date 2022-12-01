@@ -1,8 +1,3 @@
-/* ----------------------CONTACTO---------------------- */ 
-    
-     
-     
-    
 #grids-contacto { 
     
     display: grid; 
@@ -17,37 +12,19 @@
 
     grid-template-columns: 1fr 1fr 1fr; 
 
-     
-
-} 
-
- 
- 
+    } 
 
 #header-contacto { 
 
-    grid-area: header; 
+    @include flex-stamdars-header; 
 
-    
-
-    display: flex; 
-
-    flex-direction: column; 
-
-    text-align: center; 
-
-} 
-
- 
- 
+    } 
 
 .ul-contacto { 
 
     @include flex-standars;
 
     @extend .estilosEnComun; 
-
-    
 
     a {
         @extend .estilosEnComun-a;
@@ -60,10 +37,8 @@
     
         padding-bottom: 0.5rem; 
     }
-} 
 
- 
- 
+    } 
 
 @media screen and (max-width: 800px){ 
 
@@ -75,26 +50,11 @@
 
     } 
 
-} 
-
-
-
- 
- 
-
-
- 
- 
+    } 
 
 .logo-contacto{ 
 
-    display: flex; 
-
-    align-items: center; 
-
-    justify-items: center; 
-
-    justify-content: center; 
+    @include flex-standars-logo; 
 
     img {
         
@@ -102,10 +62,8 @@
 
     width: 20rem; 
     }
-} 
-
- 
- 
+    
+    } 
 
 @media screen and (max-width: 800px){ 
 
@@ -115,12 +73,7 @@
 
     } 
 
-} 
-
-
-
- 
- 
+    } 
 
 .p-contacto { 
 
@@ -128,13 +81,7 @@
 
     text-align: center; 
 
- 
- 
-
-} 
-
- 
- 
+    } 
 
 #main-contacto { 
 
@@ -150,9 +97,7 @@
 
     justify-content: center; 
 
-     
-
-} 
+    } 
 
 .form-contacto{ 
 
@@ -160,7 +105,7 @@
 
     color: white; 
 
-} 
+    } 
 
 label { 
 
@@ -168,10 +113,7 @@ label {
 
     margin-right: 1rem; 
 
-} 
-
- 
- 
+    } 
 
 input { 
 
@@ -179,7 +121,7 @@ input {
 
     margin-bottom: 2rem; 
 
-} 
+    } 
 
 #footer-contacto { 
 
@@ -188,6 +130,9 @@ input {
     font-size: 1rem; 
 
     background-color:$bgcf;
-  
 
-} 
+    p {
+        margin-bottom: 0;
+    }
+  
+    } 

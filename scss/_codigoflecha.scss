@@ -1,93 +1,66 @@
- 
-    /* -------------------CSS FLECHA SCROLL DOWN----------------- */ 
-    
-    .flechaAbajo { 
+.flechaAbajo { 
         
-    
-        width:0px; 
-    
-        height:0px; 
-    
-        border-style: solid; 
-    
-        border-width: 20px; 
-    
-        border-bottom-width:0px; 
-    
-        border-color: rgb(255, 255, 255,) transparent transparent transparent; 
-    
-        animation-name: movflecha; 
-    
-        animation-duration:  2s ; 
-    
-        animation-delay: 0.5s; 
-    
-        position: relative; 
-    
-        animation-iteration-count: infinite; 
-    
-            
+    width:0px; 
+
+    height:0px; 
+
+    border-style: solid; 
+
+    border-width: 20px; 
+
+    border-bottom-width:0px; 
+
+    border-color: rgb(255, 255, 255,) transparent transparent transparent; 
+
+    animation-name: movflecha; 
+
+    animation-duration:  2s ; 
+
+    animation-delay: 0.5s; 
+
+    position: relative; 
+
+    animation-iteration-count: infinite; 
     
     } 
     
-     
-     
+@keyframes movflecha { 
     
-    @keyframes movflecha { 
-    
-        0% {border-color:rgb(255, 255, 255) transparent transparent transparent;left:0;top:0;  
-    
-     
-     
-    
-        } 
-    
-       
-    
-        50%{border-color: rgb(255, 4, 4) transparent transparent transparent;left:0;top: 3rem; 
-    
-             
-    
-        } 
-    
-        100%{border-color: rgb(255, 255, 255) transparent transparent transparent;left:0;top: 0; 
-    
-             
-    
-        } 
-    
+    0% {border-color:rgb(255, 255, 255) transparent transparent transparent;left:0;top:0;  
+
+    } 
+
+    50%{border-color: rgb(255, 4, 4) transparent transparent transparent;left:0;top: 3rem; 
+
+    } 
+
+    100%{border-color: rgb(255, 255, 255) transparent transparent transparent;left:0;top: 0; 
+
+    } 
+
     } 
     
-     
-     
-    
-    .padre-flecha { 
-    
-        display: flex; 
-    
-        justify-content: center; 
-    
-        gap: 58rem; 
-    
-        margin-bottom: 10rem; 
-    
-     
-     
-    
+.padre-flecha { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    gap: 58rem; 
+
+    margin-bottom: 10rem; 
+
     } 
     
-    @media screen and (max-width:1010px){ 
-    
-        .padre-flecha{ 
-    
-             
-    
-            text-align: center; 
-    
-            gap: 10rem; 
-    
-        } 
-       
+@media screen and (max-width:1010px){ 
+
+    .padre-flecha{ 
+
+        text-align: center; 
+
+        gap: 10rem; 
+
+    } 
     
     } 
     

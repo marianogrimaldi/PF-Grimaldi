@@ -1,9 +1,4 @@
-  /*-------------------INICIO----------------------*/ 
-    
-     
-     
-    
-  #grids-menuPrincipal { 
+#grids-menuPrincipal { 
     
     display: grid; 
 
@@ -17,12 +12,7 @@
 
     grid-template-columns: 1fr 1fr 1fr; 
 
-     
-
 } 
-
- 
- 
 
 #header-menuPrincipal { 
 
@@ -38,12 +28,7 @@
 
     background-image:$bgimage; 
 
-          
-
 } 
-
- 
- 
 
 @media screen and (max-width: 922px){ 
 
@@ -51,14 +36,9 @@
 
         flex-direction:column-reverse;
 
-         
-
     } 
 
 }     
-
- 
- 
 
 .imagen-logo { 
 
@@ -81,19 +61,13 @@
      a:hover {
         color:$a-hovercolor;
 
-    border-bottom: 2px solid $a-hovercolor;
+        border-bottom: 2px solid $a-hovercolor;
 
-    padding-bottom: 0.5rem; 
+        padding-bottom: 0.5rem; 
      }
-
-     
-
-         
 
 } 
  
-
-    
 @media screen and (max-width:654px){ 
 
     #ul-menuPrincipal{ 
@@ -106,15 +80,9 @@
 
         gap: 1rem;
  
-
     } 
 
-  
-
 } 
-
- 
- 
 
 #main-menuPrincipal { 
 
@@ -132,15 +100,10 @@
 
     p {
         text-align: center; 
+        
     }
 
 } 
-
- 
- 
-
- 
- 
 
 #footer-menuPrincipal { 
 
@@ -150,14 +113,9 @@
 
     background-color:$bgcf;
 
-    margin-top: 2.5rem; 
-
-       
+    margin-top: 2.7rem; 
 
 } 
-
- 
- 
 
 .footer-nav { 
 
@@ -167,10 +125,8 @@
 
    justify-items: center; 
             
-
 } 
-
-    
+ 
 .logo-insta { 
 
     width: 1rem; 
