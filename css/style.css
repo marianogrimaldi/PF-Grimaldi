@@ -996,7 +996,7 @@ input {
   margin-bottom: 10rem;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1025px) {
   .padre-flecha {
     text-align: center;
     gap: 10rem;
