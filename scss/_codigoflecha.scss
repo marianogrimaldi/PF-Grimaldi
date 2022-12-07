@@ -52,7 +52,19 @@
 
     } 
     
-@media screen and (max-width:1025px){ 
+@media screen and (max-width:1200px){ 
+
+    .padre-flecha{ 
+
+        text-align: center; 
+
+        gap: 20rem; 
+
+    } 
+    
+    } 
+
+@media screen and (max-width:768px){ 
 
     .padre-flecha{ 
 
@@ -63,4 +75,3 @@
     } 
     
     } 
-    

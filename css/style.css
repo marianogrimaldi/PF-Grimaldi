@@ -289,7 +289,7 @@ img {
   background-image: linear-gradient(black, white, black);
 }
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 992px) {
   #header-menuPrincipal {
     flex-direction: column-reverse;
   }
@@ -309,7 +309,7 @@ img {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 654px) {
+@media screen and (max-width: 768px) {
   #ul-menuPrincipal {
     flex-direction: column;
     text-align: center;
@@ -372,7 +372,7 @@ img {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .ul-grandesCampeones {
     flex-direction: column;
     gap: 0.5rem;
@@ -394,7 +394,7 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .logo-grandesCampeones {
     flex-direction: column;
   }
@@ -411,7 +411,7 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .nav-grandesCampeones {
     justify-content: space-evenly;
     margin-right: 2.5rem;
@@ -423,7 +423,7 @@ img {
   margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .img-rostroCampeones {
     width: 6rem;
   }
@@ -502,7 +502,7 @@ img {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .ul-circuitos {
     flex-direction: column;
     gap: 0.5rem;
@@ -520,7 +520,7 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .logo-circuitos {
     flex-direction: column;
   }
@@ -544,7 +544,7 @@ img {
   background-color: black;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .nav-circuitos {
     display: flex;
     flex-direction: column;
@@ -621,7 +621,7 @@ img {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .ul-1950-2022 {
     flex-direction: column;
     gap: 0.5rem;
@@ -638,7 +638,7 @@ img {
   width: 20rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .logo-1950-2022 {
     flex-direction: column;
   }
@@ -662,9 +662,14 @@ tr {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   tr {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  tr {
+    font-size: 0.5rem;
   }
 }
 table {
@@ -721,7 +726,7 @@ table {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .ul-records {
     flex-direction: column;
     gap: 0.5rem;
@@ -738,7 +743,7 @@ table {
   width: 20rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .logo-records {
     flex-direction: column;
   }
@@ -812,7 +817,7 @@ table {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .ul-galeria {
     flex-direction: column;
     gap: 0.5rem;
@@ -829,7 +834,7 @@ table {
   width: 20rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .logo-galeria {
     flex-direction: column;
   }
@@ -853,10 +858,10 @@ table {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   #main-galeria {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(20, 1fr);
   }
 }
 .fotos-galeria {
@@ -898,7 +903,7 @@ table {
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .ul-contacto {
     flex-direction: column;
     gap: 0.5rem;
@@ -915,7 +920,7 @@ table {
   width: 20rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .logo-contacto {
     flex-direction: column;
   }
@@ -958,6 +963,12 @@ input {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 576px) {
+  .datos-sexo {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .flechaAbajo {
   width: 0px;
   height: 0px;
@@ -996,7 +1007,13 @@ input {
   margin-bottom: 10rem;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1200px) {
+  .padre-flecha {
+    text-align: center;
+    gap: 20rem;
+  }
+}
+@media screen and (max-width: 768px) {
   .padre-flecha {
     text-align: center;
     gap: 10rem;

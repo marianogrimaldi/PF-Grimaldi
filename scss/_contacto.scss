@@ -40,7 +40,7 @@
 
     } 
 
-@media screen and (max-width: 800px){ 
+@media screen and (max-width: 992px){ 
 
     .ul-contacto{ 
 
@@ -65,7 +65,7 @@
     
     } 
 
-@media screen and (max-width: 800px){ 
+@media screen and (max-width: 992px){ 
 
     .logo-contacto{ 
 
@@ -135,4 +135,14 @@ input {
         margin-bottom: 0;
     }
   
+    } 
+
+@media screen and (max-width: 576px){ 
+
+    .datos-sexo{ 
+        display: flex;
+        flex-direction:column; 
+
+    } 
+
     } 
